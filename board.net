@@ -1,0 +1,67 @@
+unnamed_net42	R12-2 LED4-1 
+Z_MIN	CONN1-21 Z_MIN-1 
+Y_MIN	CONN1-22 Y_MIN-1 
+X_MIN	CONN1-23 X_MIN-1 
+TEMP_EXT	CONN1-14 C1-1 T_EXT-1 R1-1 
+TEMP_BED	CONN1-13 C2-1 T_BED-1 R2-1 
++12V	VIN_BED-2 HEATER_BED-2 R6-1 
+unnamed_net41	Q2-D HEATER_BED-1 LED2-2 
+unnamed_net40	R6-2 LED2-1 
+unnamed_net39	Q2-G R7-1 
+HEATER_BED	CONN1-5 R8-2 R7-2 
+unnamed_net38	Q1-D HEATER_EXT-1 LED1-2 
+unnamed_net37	R3-2 LED1-1 
+unnamed_net36	Q1-G R4-1 
+HEATER_EXT	CONN1-7 R5-2 R4-2 
+unnamed_net35	Q3-D PRINT_FAN-1 LED3-2 
+unnamed_net34	R9-2 LED3-1 
+unnamed_net33	Q3-G R10-1 
+PRINT_FAN	CONN1-6 R11-2 R10-2 
+unnamed_net32	E_MOTOR-1 U1-14 
+unnamed_net31	E_MOTOR-2 U1-13 
+unnamed_net30	E_MOTOR-3 U1-12 
+unnamed_net29	E_MOTOR-4 U1-11 
+E_DIR	CONN1-24 U1-8 
+unnamed_net28	U1-6 U1-5 
+unnamed_net27	J1-1 U1-4 
+unnamed_net26	J2-1 U1-3 
+unnamed_net25	J3-1 U1-2 
+E_STEP	CONN1-25 U1-7 
+E_ENABLE	CONN1-26 U1-1 
+unnamed_net24	Z_MOTOR-1 U2-14 
+unnamed_net23	Z_MOTOR-2 U2-13 
+unnamed_net22	Z_MOTOR-3 U2-12 
+unnamed_net21	Z_MOTOR-4 U2-11 
+Z_DIR	CONN1-27 U2-8 
+unnamed_net20	U2-6 U2-5 
+unnamed_net19	J4-1 U2-4 
+unnamed_net18	J5-1 U2-3 
+unnamed_net17	J6-1 U2-2 
+Z_STEP	CONN1-30 U2-7 
+Z_ENABLE	CONN1-31 U2-1 
+unnamed_net16	Y_MOTOR-1 U3-14 
+unnamed_net15	Y_MOTOR-2 U3-13 
+unnamed_net14	Y_MOTOR-3 U3-12 
+unnamed_net13	Y_MOTOR-4 U3-11 
+Y_DIR	CONN1-32 U3-8 
+unnamed_net12	U3-6 U3-5 
+unnamed_net11	J7-1 U3-4 
+unnamed_net10	J8-1 U3-3 
+unnamed_net9	J9-1 U3-2 
+Y_STEP	CONN1-33 U3-7 
+Y_ENABLE	CONN1-34 U3-1 
+Vext	C7-1 U5-3 R12-1 VIN_EXT-2 HEATER_EXT-2 R3-1 PRINT_FAN-2 R9-1 C3-1 U1-16 C4-1 U2-16 C5-1 U3-16 C6-1 U4-16 
+unnamed_net8	X_MOTOR-1 U4-14 
+unnamed_net7	X_MOTOR-2 U4-13 
+unnamed_net6	X_MOTOR-3 U4-12 
+unnamed_net5	X_MOTOR-4 U4-11 
++3.3V	C8-1 U5-2 CONN1-18 CONN1-40 Z_MIN-3 Y_MIN-3 X_MIN-3 R1-2 R2-2 J3-2 J1-2 J2-2 U1-10 J6-2 J4-2 J5-2 U2-10 J9-2 J7-2 J8-2 U3-10 J12-2 J10-2 J11-2 U4-10 
+GND	C8-2 C7-2 U5-1 CONN1-20 CONN1-19 CONN1-39 LED4-2 VIN_EXT-1 VIN_BED-1 Z_MIN-2 Y_MIN-2 X_MIN-2 T_EXT-2 T_BED-2 C1-2 C2-2 Q2-S R8-1 Q1-S R5-1 Q3-S R11-1 C3-2 U1-15 U1-9 C4-2 U2-15 U2-9 C5-2 U3-15 U3-9 \
+ C6-2 U4-15 U4-9 
+X_DIR	CONN1-35 U4-8 
+unnamed_net4	U4-6 U4-5 
+unnamed_net3	J10-1 U4-4 
+unnamed_net2	J11-1 U4-3 
+unnamed_net1	J12-1 U4-2 
+X_STEP	CONN1-36 U4-7 
+X_ENABLE	CONN1-37 U4-1 
