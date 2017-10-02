@@ -2012,6 +2012,40 @@ Element["" "bluepill-1" "CONN1" "unknown" 1900.00mil 2250.00mil -525.00mil -1945
 	ElementLine [-800.00mil -2050.00mil -800.00mil -1950.00mil 10.00mil]
 
 	)
+
+Element["" "JUMPER2_1" "FAN1" "unknown" 1350.00mil 3700.00mil -49.97mil 201.00mil 0 100 ""]
+(
+	Attribute("device" "JUMPER")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[50.00mil 50.00mil 80.00mil 20.00mil 85.00mil 40.00mil "1" "1" ""]
+	Pin[50.00mil 150.00mil 80.00mil 20.00mil 85.00mil 40.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 200.00mil 10.00mil]
+	ElementLine [0.0000 200.00mil 100.00mil 200.00mil 10.00mil]
+	ElementLine [100.00mil 0.0000 100.00mil 200.00mil 10.00mil]
+	ElementLine [0.0000 0.0000 100.00mil 0.0000 10.00mil]
+	ElementLine [0.0000 100.00mil 100.00mil 100.00mil 10.00mil]
+
+	)
+
+Element["" "JUMPER2_1" "FAN2" "unknown" 1450.00mil 3700.00mil 25.03mil 201.00mil 0 100 ""]
+(
+	Attribute("device" "JUMPER")
+	Attribute("manufacturer" "unknown")
+	Attribute("manufacturer_part_number" "unknown")
+	Attribute("vendor" "unknown")
+	Attribute("vendor_part_number" "unknown")
+	Pin[50.00mil 50.00mil 80.00mil 20.00mil 85.00mil 40.00mil "1" "1" ""]
+	Pin[50.00mil 150.00mil 80.00mil 20.00mil 85.00mil 40.00mil "2" "2" ""]
+	ElementLine [0.0000 0.0000 0.0000 200.00mil 10.00mil]
+	ElementLine [0.0000 200.00mil 100.00mil 200.00mil 10.00mil]
+	ElementLine [100.00mil 0.0000 100.00mil 200.00mil 10.00mil]
+	ElementLine [0.0000 0.0000 100.00mil 0.0000 10.00mil]
+	ElementLine [0.0000 100.00mil 100.00mil 100.00mil 10.00mil]
+
+	)
 Layer(1 "Bridges")
 (
 	Line[20.9598mm 69.8554mm 13.9748mm 69.8554mm 50.00mil 40.00mil "clearline"]
@@ -2364,6 +2398,7 @@ Layer(2 "Bottom")
 	Line[27.3069mm 1650.00mil 1300.00mil 1425.00mil 30.00mil 32.00mil "clearline"]
 	Line[1175.00mil 1775.00mil 29.8402mm 44.4510mm 30.00mil 32.00mil "clearline"]
 	Line[2425.00mil 1600.00mil 2425.00mil 1975.00mil 100.00mil 40.00mil "clearline"]
+	Line[1500.00mil 3750.00mil 1400.00mil 3750.00mil 70.00mil 32.00mil "clearline"]
 	Text[1525.00mil 700.00mil 1 144 "Morpheus Board by SPON!" "clearline,onsolder"]
 	Text[1625.00mil 700.00mil 1 143 "Released under GPLv3" "clearline,onsolder"]
 )
@@ -2381,6 +2416,7 @@ Layer(4 "ground")
 	Line[575.00mil 1950.00mil 800.00mil 1950.00mil 10.00mil 32.00mil "clearline"]
 	Line[575.00mil 2750.00mil 800.00mil 2750.00mil 10.00mil 32.00mil "clearline"]
 	Line[825.00mil 3875.00mil 825.00mil 3575.00mil 10.00mil 32.00mil "clearline"]
+	Text[1575.00mil 3825.00mil 0 144 "+" "clearline"]
 )
 NetList()
 (
@@ -2446,6 +2482,8 @@ NetList()
 		Connect("CONN1-19")
 		Connect("CONN1-20")
 		Connect("CONN1-39")
+		Connect("FAN1-1")
+		Connect("FAN2-1")
 		Connect("LED4-2")
 		Connect("Q1-S")
 		Connect("Q2-S")
@@ -2722,6 +2760,8 @@ NetList()
 		Connect("C5-1")
 		Connect("C6-1")
 		Connect("C7-1")
+		Connect("FAN1-2")
+		Connect("FAN2-2")
 		Connect("HEATER_EXT-2")
 		Connect("PRINT_FAN-2")
 		Connect("R3-1")

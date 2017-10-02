@@ -1,5 +1,13 @@
 # Pin name action command file
 
+# Start of element FAN2
+ChangePinName(FAN2, 1, 1)
+ChangePinName(FAN2, 2, 2)
+
+# Start of element FAN1
+ChangePinName(FAN1, 1, 1)
+ChangePinName(FAN1, 2, 2)
+
 # Start of element C8
 ChangePinName(C8, 2, 2)
 ChangePinName(C8, 1, 1)
