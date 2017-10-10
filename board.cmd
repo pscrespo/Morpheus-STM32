@@ -1,5 +1,10 @@
 # Pin name action command file
 
+# Start of element Z_PROBE
+ChangePinName(Z_PROBE, 3, 3)
+ChangePinName(Z_PROBE, 1, 1)
+ChangePinName(Z_PROBE, 2, 2)
+
 # Start of element CONN2
 ChangePinName(CONN2, 8, 8)
 ChangePinName(CONN2, 7, 7)
@@ -124,9 +129,9 @@ ChangePinName(R12, 2, 2)
 ChangePinName(LED4, 2, K)
 ChangePinName(LED4, 1, A)
 
-# Start of element VIN_EXT
-ChangePinName(VIN_EXT, 1, 1)
-ChangePinName(VIN_EXT, 2, 2)
+# Start of element VIN
+ChangePinName(VIN, 1, 1)
+ChangePinName(VIN, 2, 2)
 
 # Start of element VIN_BED
 ChangePinName(VIN_BED, 1, 1)
