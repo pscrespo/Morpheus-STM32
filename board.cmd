@@ -1,5 +1,9 @@
 # Pin name action command file
 
+# Start of element R13
+ChangePinName(R13, 1, 1)
+ChangePinName(R13, 2, 2)
+
 # Start of element Z_PROBE
 ChangePinName(Z_PROBE, 3, 3)
 ChangePinName(Z_PROBE, 1, 1)
