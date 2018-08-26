@@ -20,12 +20,17 @@
  *
  */
 
-/**
- * MORPHEUS Board pin assignments
- */
+ /**
+  * 2017 Victor Perez Marlin for stm32f1 test
+  * 2018 Modified by Pablo Crespo for Morpheus Board (https://github.com/pscrespo/Morpheus-STM32)
+  */
+
+//
+// MORPHEUS Board pin assignments
+//
 
 #ifndef __STM32F1__
-  #error "Oops! You must be compiling for STM32."
+  #error "Oops!  Make sure you have an STM32F1 board selected from the 'Tools -> Boards' menu."
 #endif
 
 #define BOARD_NAME "Bluepill based board"
@@ -82,3 +87,4 @@
 // Misc.
 //
 #define LED_PIN            PC13
+#define SDSS               PA3

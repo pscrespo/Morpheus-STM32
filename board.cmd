@@ -1,5 +1,21 @@
 # Pin name action command file
 
+# Start of element D1
+ChangePinName(D1, 2, 2)
+ChangePinName(D1, 1, 1)
+
+# Start of element CONN2
+ChangePinName(CONN2, 6, 6)
+ChangePinName(CONN2, 7, 7)
+ChangePinName(CONN2, 8, 8)
+ChangePinName(CONN2, 9, 9)
+ChangePinName(CONN2, 10, 10)
+ChangePinName(CONN2, 5, 5)
+ChangePinName(CONN2, 1, 1)
+ChangePinName(CONN2, 4, 4)
+ChangePinName(CONN2, 3, 3)
+ChangePinName(CONN2, 2, 2)
+
 # Start of element R13
 ChangePinName(R13, 1, 1)
 ChangePinName(R13, 2, 2)
@@ -8,16 +24,6 @@ ChangePinName(R13, 2, 2)
 ChangePinName(Z_PROBE, 3, 3)
 ChangePinName(Z_PROBE, 1, 1)
 ChangePinName(Z_PROBE, 2, 2)
-
-# Start of element CONN2
-ChangePinName(CONN2, 8, 8)
-ChangePinName(CONN2, 7, 7)
-ChangePinName(CONN2, 6, 6)
-ChangePinName(CONN2, 5, 5)
-ChangePinName(CONN2, 4, 4)
-ChangePinName(CONN2, 3, 3)
-ChangePinName(CONN2, 2, 2)
-ChangePinName(CONN2, 1, 1)
 
 # Start of element FAN2
 ChangePinName(FAN2, 1, 1)
@@ -180,9 +186,9 @@ ChangePinName(R1, 2, 2)
 ChangePinName(R2, 1, 1)
 ChangePinName(R2, 2, 2)
 
-# Start of element HEATER_BED
-ChangePinName(HEATER_BED, 1, 1)
-ChangePinName(HEATER_BED, 2, 2)
+# Start of element HEATBED
+ChangePinName(HEATBED, 1, 1)
+ChangePinName(HEATBED, 2, 2)
 
 # Start of element R6
 ChangePinName(R6, 1, 1)
@@ -200,9 +206,9 @@ ChangePinName(R8, 2, 2)
 ChangePinName(R7, 1, 1)
 ChangePinName(R7, 2, 2)
 
-# Start of element HEATER_EXT
-ChangePinName(HEATER_EXT, 1, 1)
-ChangePinName(HEATER_EXT, 2, 2)
+# Start of element HOTEND
+ChangePinName(HOTEND, 1, 1)
+ChangePinName(HOTEND, 2, 2)
 
 # Start of element R3
 ChangePinName(R3, 1, 1)
