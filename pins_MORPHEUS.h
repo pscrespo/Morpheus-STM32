@@ -1,6 +1,6 @@
 /**
  * Marlin 3D Printer Firmware
- * Copyright (C) 2016 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
+ * Copyright (C) 2019 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
  *
  * Based on Sprinter and grbl.
  * Copyright (C) 2011 Camiel Gubbels / Erik van der Zalm
@@ -25,12 +25,12 @@
   * 2018 Modified by Pablo Crespo for Morpheus Board (https://github.com/pscrespo/Morpheus-STM32)
   */
 
-//
-// MORPHEUS Board pin assignments
-//
+/**
+ * MORPHEUS Board pin assignments
+ */
 
 #ifndef __STM32F1__
-  #error "Oops!  Make sure you have an STM32F1 board selected from the 'Tools -> Boards' menu."
+  #error "Oops! Select an STM32F1 board in 'Tools > Board.'"
 #endif
 
 #define BOARD_NAME "Bluepill based board"
@@ -38,16 +38,14 @@
 //
 // Limit Switches
 //
-#define X_MIN_PIN          PB14
-#define Y_MIN_PIN          PB13
-#define Z_MIN_PIN          PB12
+#define X_STOP_PIN         PB14
+#define Y_STOP_PIN         PB13
+#define Z_STOP_PIN         PB12
 
 //
-// Z Probe (when not Z_MIN_PIN)
+// Z Probe
 //
-#ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN  PB9
-#endif
+#define Z_MIN_PROBE_PIN    PB9
 
 //
 // Steppers
@@ -78,13 +76,16 @@
 //
 // Heaters / Fans
 //
-#define HEATER_0_PIN       PA2   // HOTEND MOSFET
+#define HEATER_0_PIN       PA1   // HOTEND MOSFET
 #define HEATER_BED_PIN     PA0   // BED MOSFET
 
-#define FAN_PIN            PA1   // FAN1 header on board - PRINT FAN
+#define FAN_PIN            PA2   // PRINT FAN
 
 //
 // Misc.
 //
-#define LED_PIN            PC13
 #define SDSS               PA3
+#define SD_DETECT_PIN      -1
+#define LED_PIN            PC13
+#define DISABLE_JTAG
+#define FAN_SOFT_PWM
