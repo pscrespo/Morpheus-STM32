@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BluePill
+D "BluePill" STM32F103C8 Development Board
+K bluepill
+$ENDCMP
+#
+#End Doc Library
