@@ -34,5 +34,5 @@ Features:
  Notes:
  ---------------
  - Usually, "blue pill" boards have a wrong R10 value (USB pullpup resistor, should be 1.5k but manufcturers place a 10k or other value resistor instead), so you can add a 1.8k in R13. If your board has the correct value or you already fixed it in the board, then leave R13 unpopulated.
- - Hotend sensor uses a 1k resistor pullup (R1). If you're having trouble with finding (or creating) thermistor tables, just replace it with a 4.7k resistor and use the usual Marlin tables. - ~Hotend sensor uses a 1k resistor pullup (R1). Anyway, if you're having trouble with finding (or creating) thermistor tables, just replace it with a 4.7k resistor and use the usual Marlin tables.~ 
+ - ~Hotend sensor uses a 1k resistor pullup (R1). Anyway, if you're having trouble with finding (or creating) thermistor tables, just replace it with a 4.7k resistor and use the usual Marlin tables.~ 
   Now Marlin has configurable thermistors, you can use thermistor **1000** in **configuration.h** and choose pull-up, ressistance and beta values in **configuration_adv.h**
