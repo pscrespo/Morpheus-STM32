@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:Morpheus-kicad-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MORPHEUS Board by SPON!"
 Date ""
-Rev "0.5"
+Rev "0.6"
 Comp "Released under GPLv3"
 Comment1 ""
 Comment2 ""
@@ -854,7 +854,7 @@ Text GLabel 2400 5750 0    50   Input ~ 0
 SDA
 Text GLabel 2400 5850 0    50   Input ~ 0
 SCL
-Text GLabel 2900 5450 2    50   Input ~ 0
+Text GLabel 2850 6250 2    50   Input ~ 0
 PA3
 Text GLabel 2900 5550 2    50   Input ~ 0
 SS
@@ -1842,10 +1842,38 @@ F 3 "" H 9500 2350 50  0001 C CNN
 	1    9500 2350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J6
+U 1 1 5DD7FDA2
+P 2650 6450
+F 0 "J6" H 2600 6150 50  0000 L CNN
+F 1 "Conn_01x05" H 2730 6399 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2650 6450 50  0001 C CNN
+F 3 "~" H 2650 6450 50  0001 C CNN
+	1    2650 6450
+	-1   0    0    1   
+$EndComp
 Text GLabel 3400 4400 2    50   Input ~ 0
 PC15
 Text GLabel 3400 4500 2    50   Input ~ 0
 PC14
 Text GLabel 3400 4600 2    50   Input ~ 0
 PC13
+Text GLabel 2850 6350 2    50   Input ~ 0
+PC15
+Text GLabel 2850 6450 2    50   Input ~ 0
+PC14
+Text GLabel 2850 6550 2    50   Input ~ 0
+PC13
+$Comp
+L power:GND #PWR0159
+U 1 1 5DDBE61A
+P 2850 6650
+F 0 "#PWR0159" H 2850 6400 50  0001 C CNN
+F 1 "GND" H 2855 6477 50  0001 C CNN
+F 2 "" H 2850 6650 50  0001 C CNN
+F 3 "" H 2850 6650 50  0001 C CNN
+	1    2850 6650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
